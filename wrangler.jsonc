@@ -4,20 +4,16 @@
   "compatibility_date": "2025-04-01",
   "main": "./api/index.js",
   "compatibility_flags": ["nodejs_compat"],
-  "assets": [
-	  {
-		  "directory":"./public",
-		  "binding":"ASSETS"
-	  }
-  ],
-  /* "hyperdrive": [
+  "assets": {
+    "directory": "./build/client"
+  },
+  // "hyperdrive": [
   //   {
   //     "binding": "HYPERDRIVE",
   //     "id": "YOUR_HYPERDRIVE_ID",
   //     "localConnectionString": "postgresql://myuser:mypassword@localhost:5432/mydatabase"
   //   }
   // ],
-  */
   "services": [
     {
       "binding": "BOOKS_SERVICE",
