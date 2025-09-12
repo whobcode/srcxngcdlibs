@@ -7,13 +7,13 @@
   "assets": {
     "directory": "./build/client"
   },
-  // "hyperdrive": [
-  //   {
-  //     "binding": "HYPERDRIVE",
-  //     "id": "YOUR_HYPERDRIVE_ID",
-  //     "localConnectionString": "postgresql://myuser:mypassword@localhost:5432/mydatabase"
-  //   }
-  // ],
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "5e3485333df74f36932b475301c3c094",
+      "localConnectionString": "postgresql://neondb_owner:npg_3W0VZOCoigGE@ep-blue-shape-a89kw7k5-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require"
+    }
+  ],
   "services": [
     {
       "binding": "BOOKS_SERVICE",
